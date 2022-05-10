@@ -58,7 +58,7 @@ const Mission1 = () => {
 
         {/* Body */}
         <View>
-            {array.length>0 && array.map((e,index)=><TitleCard item={e} removeFromTheArray={removeFromTheArray} />)}
+            {array.length>0 && array.map((e,index)=><TitleCard key={index} item={e} removeFromTheArray={removeFromTheArray} />)}
             </View>
 
 
