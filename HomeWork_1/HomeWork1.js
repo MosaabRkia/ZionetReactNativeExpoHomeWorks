@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { Button, StyleSheet, Text, TextInput, Dimensions, View } from 'react-native';
+import { windowWidth } from '../Utils/Dimensions';
 
-const windowWidth = Dimensions.get('window').width;
-const windowHeight = Dimensions.get('window').height;
+
 
 export const HomeWork1=()=> {
     const [total,setTotal] = useState(0)

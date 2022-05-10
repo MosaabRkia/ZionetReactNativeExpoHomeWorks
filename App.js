@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { Button, StyleSheet, Text, TextInput, useWindowDimensions, View } from 'react-native';
 import HomeWork1 from './HomeWork_1/HomeWork1';
+import Mission1 from './Mission_1/Mission1';
 
 
 
@@ -9,9 +10,9 @@ import HomeWork1 from './HomeWork_1/HomeWork1';
 export default function App() {
  
  return(
-
-   <HomeWork1 />
-
+<>
+<Mission1 />
+</>
  );
 }
 
